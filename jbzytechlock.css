@@ -1,0 +1,58 @@
+﻿
+/* hide the chest content */
+#chest {
+    display: none;
+}
+
+/* styling the locker */
+#lock .locker-title {
+    font-size: 1.1em;
+    color: red !important;
+    font-weight: bold;
+}
+
+#lock .content-hint {
+    font-size: 1.1em !important;
+    color: darkblue !important;
+}
+
+#lock .unlock-now {
+    font-size: 1em !important;
+    font-weight: bold;
+    color: white !important;
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#lock {
+    min-height: 400px;
+    width: 100%;
+    background: url(https://cdn.fususu.com/wp-content/uploads/2019/09/chest.jpg) repeat 100%;
+    opacity: 0.99;
+    /* if you like to use blur effect, just replace to this */
+    /* background: white; opacity: 0.90; */
+    flex-direction: row;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+}
+
+#lock .lock_content {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.95);
+    text-align: center;
+}
+
+#lock .lock-title {
+    color: red !important;
+    font-weight: bold;
+}
