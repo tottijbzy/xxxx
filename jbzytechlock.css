@@ -3,7 +3,10 @@
 #chest {
     display: none;
 }
-
+/* hide the chest content */
+#content-hint {
+    display: none;
+}
 /* styling the locker */
 #lock .locker-title {
     font-size: 1.1em;
